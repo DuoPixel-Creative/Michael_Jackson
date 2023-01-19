@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        #contenedor {
+            width: 1500px;
+            height: 1731.04px;
+            position: relative;
+            background-image: url("images/images/tiendafondo.png");
+            margin: auto;
+        }
+        body {
+            background-color: white;
+            background-repeat: repeat;
+            margin: 0px;
+        }
+        #logo {
+            position: absolute;
+            width: 992px;
+            height: 125px;
+            left: 112px;
+            top: 101px;
+        }
+
+        #youtube {
+            position: absolute;
+            width: 42px;
+            height: 27px;
+            left: 1074px;
+            top: 58px;
+        }
+
+        #facebook {
+            position: absolute;
+            width: 28px;
+            height: 27px;
+            left: 1142px;
+            top: 58px;
+        }
+
+        #instagram {
+            position: absolute;
+            width: 27px;
+            height: 27px;
+            left: 1203px;
+            top: 58px;
+        }
+
+        #apple {
+            position: absolute;
+            width: 29px;
+            height: 34px;
+            left: 1263px;
+            top: 51px;
+        }
+
+        #twitter {
+            position: absolute;
+            width: 34px;
+            height: 27px;
+            left: 1321px;
+            top: 58px;
+        }
+
+        #spotify {
+            position: absolute;
+            width: 27px;
+            height: 27px;
+            left: 1382px;
+            top: 58px;
+        }
+
+        #historia {
+            position: absolute;
+            width: 116px;
+            height: 19px;
+            left: 180px;
+            top: 232px;
+        }
+
+        #discografia {
+            position: absolute;
+            width: 184px;
+            height: 26px;
+            left: 402px;
+            top: 226px;
+        }
+
+        #exitos {
+            position: absolute;
+            width: 87px;
+            height: 26px;
+            left: 705px;
+            top: 226px;
+        }
+
+        #tienda {
+            position: absolute;
+            width: 94px;
+            height: 19px;
+            left: 956px;
+            top: 231px;
+        }
+
+        #galeria {
+            position: absolute;
+            width: 111px;
+            height: 26px;
+            left: 1203px;
+            top: 224px;
+        }
+
+        #imagen1 {
+            position: absolute;
+            width: 1299px;
+            height: 482px;
+            left: 94px;
+            top: 275px;
+        }
+
+        #imagen2 {
+            position: absolute;
+            width: 372px;
+            height: 228px;
+            left: 179px;
+            top: 811px;
+        }
+
+        #imagen3 {
+            position: absolute;
+            width: 240px;
+            height: 303px;
+            left: 652px;
+            top: 773px;
+        }
+
+        #imagen4 {
+            position: absolute;
+            width: 364px;
+            height: 228px;
+            left: 989px;
+            top: 811px;
+        }
+
+        #imagen5 {
+            position: absolute;
+            width: 256px;
+            height: 322px;
+            left: 209px;
+            top: 1189px;
+        }
+
+        #imagen6 {
+            position: absolute;
+            width: 324px;
+            height: 322px;
+            left: 602px;
+            top: 1189px;
+        }
+
+        #imagen7 {
+            position: absolute;
+            width: 302px;
+            height: 322px;
+            left: 1008px;
+            top: 1189px;
+        }
+
+        #arturo {
+            position: absolute;
+            width: 222px;
+            height: 21px;
+            left: 158px;
+            top: 1687px;
+        }
+
+        #youtube1 {
+            position: absolute;
+            width: 45px;
+            height: 30px;
+            left: 1031px;
+            top: 1683px;
+        }
+
+        #facebook1 {
+            position: absolute;
+            width: 32px;
+            height: 30px;
+            left: 1102px;
+            top: 1683px;
+        }
+
+        #instagram1 {
+            position: absolute;
+            width: 32px;
+            height: 30px;
+            left: 1166px;
+            top: 1683px;
+        }
+
+        #apple1 {
+            position: absolute;
+            width: 32px;
+            height: 37px;
+            left: 1231px;
+            top: 1676px;
+        }
+
+        #twitter1 {
+            position: absolute;
+            width: 35px;
+            height: 32px;
+            left: 1294px;
+            top: 1681px;
+        }
+
+        #spotify1 {
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            left: 1358px;
+            top: 1681px;
+        }
+        #texto1 {
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            padding: 60px;
+            text-align: justify;
+            line-height: 50px;
+            font-weight: normal;
+            font-style: normal;
+            width: 800px;
+            left: 145px;
+            top: 960px;
+        }
+        #texto2 {
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            padding: 60px;
+            text-align: justify;
+            line-height: 50px;
+            font-weight: normal;
+            font-style: normal;
+            width: 800px;
+            left: 450px;
+            top: 20px;
+        }
+        h1{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: -200px;
+            font-style: bolder;
+            font-weight: normal;
+            left: 450px;
+            top: 50px;
+        }
+        h2{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: aliceblue;
+            text-align: center;
+            line-height: -200px;
+            font-style: lighter;
+            left: -360px;
+            top: 530px;
+        }
+        h3{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: aliceblue;
+            text-align: center;
+            line-height: -200px;
+            font-style: lighter;
+            left: 70px;
+            top: 500px;
+        }
+        h4{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: aliceblue;
+            text-align: center;
+            line-height: -200px;
+            font-style: lighter;
+            left: 420px;
+            top: 530px;
+        }
+        h5{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: -305px;
+            top: 70px;
+        }
+        h6{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: 120px;
+            top: 70px;
+        }
+        #precio{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: 500px;
+            top: 90px;
+        }
+        #precio2{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: -800px;
+            top: 480px;
+        }
+        #precio3{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: 430px;
+            top: -20px;
+        }
+        #precio4{
+            position: absolute;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            line-height: -200px;
+            font-style: normal;
+            left: 400px;
+            top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="logo"><a href="Index.html"><img src="images/images/images/tiendalogo_03.png" alt=""></a></div>
+        <div id="youtube"><a href="https://www.youtube.com/channel/UC5OrDvL9DscpcAstz7JnQGA" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_46.png" alt=""></a></div>
+        <div id="facebook"><a href="https://www.facebook.com/michaeljackson" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_48.png" alt=""></a></div>
+        <div id="instagram"><a href="https://www.instagram.com/michaeljackson/" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_50.png" alt=""></a></div>
+        <div id="apple"><a href="https://music.apple.com/us/artist/michael-jackson/32940" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_38.png" alt=""></a></div>
+        <div id="twitter"><a href="https://twitter.com/michaeljackson" target="_blank" rel="noopener noreferrer"><img
+                    src="images/images/images/discografia1_41.png" alt=""></a></div>
+        <div id="spotify"><a href="https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm?si=7w2-yAi6Qaq15Mc9HlBrLw"
+                target="_blank" rel="noopener noreferrer"><img src="images/images/images/discografia1_43.png"
+                    alt=""></a></div>
+        <div id="historia"><a href="historia.html"><img src="images/images/discografia_17.png" alt=""></a></div>
+        <div id="discografia"><a href="discografía.html"><img src="images/images/discografia_09.png" alt=""></a></div>
+        <div id="exitos"><a href="éxitos.html"><img src="images/images/discografia_11.png" alt=""></a></div>
+        <div id="tienda"><a href="tienda.html"><img src="images/images/discografia_14.png" alt=""></a></div>
+        <div id="galeria"><a href="galería.html"><img src="images/images/discografia_06.png" alt=""></a></div>
+        <div id="imagen1"><a href="https://michaeljackson.tmstor.es/products/section/14558" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_25.png" alt="" class= "animate__animated animate__backInDown"></a></div>
+        <div id="imagen2"><a href="https://michaeljackson.tmstor.es/product/96536" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_32.png" alt="" class= "animate__animated animate__bounceIn"></a></div>
+        <div id="imagen3"><a href="https://michaeljackson.tmstor.es/product/96722" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_29.png" alt="" class= "animate__animated animate__bounceIn"></a></div>
+        <div id="imagen4"><a href="https://michaeljackson.tmstor.es/product/96724" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_35.png" alt="" class= "animate__animated animate__bounceIn"></a></div>
+        <div id="imagen5"><a href="https://michaeljackson.tmstor.es/product/96265" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_41.png" alt=""></a></div>
+        <div id="imagen6"><a href="https://michaeljackson.tmstor.es/product/96267" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_43.png" alt=""></a></div>
+        <div id="imagen7"><a href="https://michaeljackson.tmstor.es/product/91420" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/tienda_45.png" alt=""></a></div>
+        <div id="arturo"><a href="miperfil.html"><img src="images/index_58.png" alt=""></a></div>
+        <div id="youtube1"><a href="https://www.youtube.com/channel/UC5OrDvL9DscpcAstz7JnQGA" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_46.png" alt=""></a></div>
+        <div id="facebook1"><a href="https://www.facebook.com/michaeljackson" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_48.png" alt=""></a></div>
+        <div id="instagram1"><a href="https://www.instagram.com/michaeljackson/" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_50.png" alt=""></a></div>
+        <div id="apple1"><a href="https://music.apple.com/us/artist/michael-jackson/32940" target="_blank"
+                rel="noopener noreferrer"><img src="images/images/images/discografia1_38.png" alt=""></a></div>
+        <div id="twitter1"><a href="https://twitter.com/michaeljackson" target="_blank" rel="noopener noreferrer"><img
+                    src="images/images/images/discografia1_41.png" alt=""></a></div>
+        <div id="spotify1"><a href="https://open.spotify.com/artist/3fMbdgg4jU18AjLCKBhRSm?si=7w2-yAi6Qaq15Mc9HlBrLw"
+                target="_blank" rel="noopener noreferrer"><img src="images/images/images/discografia1_43.png"
+                    alt=""></a></div>
+        <div class="row" id="texto1" style="color: black;">
+            <div class="col-12 text-align">
+                <p>Thriller 40th Aniversario Deluxe 2CD Album</p>
+        <div class="row" id="texto2" style="color: black;">
+            <div class="col-12 text-align">
+                <p>Thriller (Limited Edition UltraDisc)</p>
+        <h1>Thriller (Numbered Hybrid SACD)</h1>
+        <h2>Thriller 40th Sudadera Bordada</h2>
+        <h3>Thriller 40th Playera Bordada</h3>
+        <h4>Michael Jackson Sudadera Cuello Redondo</h4>
+        <h5>$399.00 MX</h5>
+        <h6>$2,310.00 MX</h6>
+        <div class="row" id="precio" style="color: black;">
+            <div class="col-12 text-align">
+                <p>$903.00 MX</p>
+        <div class="row" id="precio2" style="color: white;">
+            <div class="col-12 text-align">
+                <p>$850.00 </p>
+        <div class="row" id="precio3" style="color: white;">
+            <div class="col-12 text-align">
+                <p>$500.00</p>
+        <div class="row" id="precio4" style="color: white;">
+            <div class="col-12 text-align">
+                <p>$550.00</p>
+        
+    </div>
+</body>
+
+</html>
